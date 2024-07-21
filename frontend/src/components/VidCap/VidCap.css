@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.wrapper {
+    display: block;
+    margin-left: 13.5%;
+    margin-top: 9%;
+}
+
+.main { 
+    position: absolute;
+    width: 800px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -55px;
+    height: 500px;
+}
+
+.details { 
+    position: absolute;
+    width: 700px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -55px;
+    height: 600px;
+}
+
+.capt-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #D6D6D6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    max-height: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.image {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 0px;
+}
+
+.caption-text {
+    margin-left: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #04441e;
+}
+
+.item-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    color: rgb(88, 96, 105);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 30px -15px;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cap-class {
+    display: flex;
+    position: absolute;
+    top: -10;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+.label {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(2, 55, 22);
+}
+
+.label {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  rgb(2, 55, 22);
+}
+
+.details-label {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  rgb(2, 55, 22);
+}
+
+.beam-input {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 8px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.beam-input::placeholder {
+    text-align: center;
+}
+
+.beam-input:focus {
+    border-color: #EF7075;
+    box-shadow: 0 0 8px 0 #EF7075;
+  }
+
+.button {
+    text-decoration: none;
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: rgba(1, 1, 1, 1);
+    background: #CDE990;
+    padding: 15px 15px;
+    border-radius: 4px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    width: 45%;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.video {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #053768;
+}
+
+.results {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #053768;
+}
+
+.results-details {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #053768;
+}
+  
+.buttonD {
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgba(1, 1, 1, 1.2);
+    background: #CDE990;
+    padding: 15px 40px;
+    border-radius: 4px;
+    border-width: 0px;
+    width: 25%;
+    height: 55px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    color:  rgba(2, 55, 22);
+    box-shadow: 0 5px 15px #AACB73;
+}
+
+.buttonD:hover {
+    color:  rgba(2, 55, 22);
+    box-shadow: 0 5px 15px #D6D6D6;
+}
+
+.button:focus, .buttonD:focus {
+    outline:0;
+}
+
+.fadeIn{
+    opacity:1;
+    width:100px;
+    height:100px;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+
+}
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: -600px;
+    margin: auto;
+}
+
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 75%;
+    bottom: 25%;
+    background-image: linear-gradient(to top, #FFD4D4 , #FFFFE8 );
+}
+
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+
+.bgBottom {
+    z-index: 5;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+
+.waveTop {
+    background-size: 50% 100px;
+}
+
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+
+.waveMiddle {
+    background-size: 50% 120px;
+}
+
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+
+.waveBottom {
+    background-size: 50% 100px;
+}
+
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
