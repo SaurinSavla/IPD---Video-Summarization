@@ -170,6 +170,9 @@ backend/ckpt/
 training/annotations/
 training/train2014/
 training/train_captions.pkl
+training/Audio_2_Text.ipynb
+
+/images
 
 sample_videos/beach.mp4
 sample_videos/beech.mp4
